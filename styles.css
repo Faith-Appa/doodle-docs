@@ -32,6 +32,10 @@ main {
     border: 1px solid #38302E;
 }
 
+main p {
+    line-height: 2px;
+}
+
 #not{
     font-family:Helvetica, sans-serif;
     background-color: #DBF4A7;
