@@ -1,10 +1,12 @@
 .lid {
     
     font-family: Helvetica, sans-serif;
-    margin: 120px;
+    margin: 0em;
     color:#38302E;
     text-align: center;
-    
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(65, 169, 253);
 }
 
 
@@ -15,34 +17,30 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 1em;
     background-color: #DBF4A7;
-    width: 85px;
-    height: 75vh;
+    width: 4.8em;
+    height: 13.5em;
     position: collapse;
     float: left;
 }  
 
 main {
     font-family: Helvetica, sans-serif;
-    margin-left: 115px;
+    margin-left: 7.3em;
     color:#38302E;
     background-color: #F9F9ED;
     text-align: center;
-    border: 1px solid #38302E;
-}
-
-main p {
-    line-height: 2px;
+    border: .1em solid #000000
 }
 
 #not{
     font-family:Helvetica, sans-serif;
     background-color: #DBF4A7;
-    margin-left: 115px;
+    margin-left: 7.3em;
     display:flex;
     flex-direction:row;
-    border: 1px solid #38302E;
+    border: 0.1em solid #38302E;
 }
 
 a:hover, a:active {

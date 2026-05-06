@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: rgb(145, 195, 241);
+}
+
+#top {
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffff;
+
+}
+
+.sidebar {
+    font-family:Helvetica, sans-serif;
+    margin: 0;
+    color:#38302E;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #DBF4A7;
+    width: 4.8em;
+    height: 13.5em;
+    position: collapse;
+    float: left;
+}
