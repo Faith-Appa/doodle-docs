@@ -13,6 +13,29 @@ body {
 
 }
 
+main>h2 {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 5.5em;
+}
+
+.gallery {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 12.3em;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    
+}
+
+.gallery > div {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: .3em;
+}
+
 .sidebar {
     font-family:Helvetica, sans-serif;
     margin: .5em;

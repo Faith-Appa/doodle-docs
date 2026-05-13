@@ -40,7 +40,6 @@ main {
     transition: 0.3s;
     cursor: pointer;
     float: left;
-    display:table-column;
     width: 25%;
     padding: 0 1px;
   }
