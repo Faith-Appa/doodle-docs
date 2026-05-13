@@ -1,3 +1,13 @@
+body {
+    background: linear-gradient(#F9F9ED, rgb(74, 102, 255) 100%);
+    margin:25px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+
+
 .lid {
     
     font-family: Helvetica, sans-serif;
@@ -7,8 +17,8 @@
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: rgb(65, 169, 253);
+    
 }
-
 
 .sidebar {
     font-family:Helvetica, sans-serif;
@@ -23,11 +33,13 @@
     height: 13.5em;
     position: collapse;
     float: left;
+    border-style: solid;
+    border-width: .1em;
 }  
 
 main {
     font-family: Helvetica, sans-serif;
-    margin-left: 7.3em;
+    margin-left: .2em;
     color:#38302E;
     background-color: #F9F9ED;
     text-align: center;

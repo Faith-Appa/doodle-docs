@@ -53,3 +53,7 @@ main {
   .container {
     padding: 2px 16px;
   }
+
+  footer{
+    clear:all;
+  }

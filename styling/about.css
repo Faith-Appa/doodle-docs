@@ -1,0 +1,38 @@
+html{
+    background-image: background-image:-moz-linear-gradient(to bottom white, blue);
+}
+header {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+main{
+    border-style: solid;
+    border-color:black;
+}
+
+article{
+    font-family: Helvetica, sans-serif;
+    column-count: 2;
+    column-gap:3em;
+    padding-left:2em;
+ }
+
+ .sidebar {
+    font-family:Helvetica, sans-serif;
+    margin: 0;
+    color:#38302E;
+    text-align: left;
+    display: grid;
+    grid-column: sidebar;
+    padding: 1em;
+    background-color: #DBF4A7;
+    width: 4.8em;
+    height: 13.5em;
+    position: collapse;
+    float: left;
+}  
+
+footer{
+    text-align: center;
+}
