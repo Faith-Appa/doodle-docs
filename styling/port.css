@@ -22,12 +22,24 @@ main>h2 {
 .gallery {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    margin-left: 12.3em;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 150px 150px 150px;
-    
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;  
+}
+
+.box {
+    width: 5em;
+    height: 5em;
+    background-color: #fff;
+    border-radius: .3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #38302E;
 }
 
 .gallery > div {
