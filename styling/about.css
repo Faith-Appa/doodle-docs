@@ -1,7 +1,7 @@
-@media screen and (min-width: 1700px) and (max-width: 400px) {
-    article {
-        column-count: 1;
-    }
+@media screen (width > 480px) {
+.article {
+    grid-template-columns: 1fr 4fr;
+}
 }
 
 html{
