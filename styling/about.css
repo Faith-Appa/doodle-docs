@@ -1,3 +1,9 @@
+@media screen and (min-width: 1700px) and (max-width: 400px) {
+    article {
+        column-count: 1;
+    }
+}
+
 html{
     background-image: background-image:-moz-linear-gradient(to bottom white, blue);
 }
@@ -9,6 +15,10 @@ header {
 main{
     border-style: solid;
     border-color:black;
+}
+img {    
+    width: 90%;
+    height: auto;
 }
 
 article{
