@@ -3,3 +3,4 @@ In class today I did Professor Taylor's challenge and here's what I found. I foc
 The Flexbox changed the way my website looked by organizing it in a more readable way. 
 I feel really confident with text-aligning and adding border with my flex-border. 
 A CSS rule that I found really confusing at first was the hover and figuring out how to change the color of the links in my website.
+Added major changes to site. I revamped my Nav bar, which I have yet to apply to all pages. I implemented some animations to my homepage links. I added media queries to my home and about pages. I used flex and responsive deign for all my pages so far. I need to add some more content, I am tackling my exercises page next. My scalable image is on my about page. Still having difficulty with making 2 columns into 1. I think I may learn how to color theme next, just to see other options.
