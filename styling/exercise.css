@@ -69,8 +69,9 @@ main {
   }
 
   
-  .card-one:hover .card-inner, .card-two:hover .card-inner, .card-three:hover .card-inner {
+  .card-inner:hover {
     transform: rotateY(180deg);
+    background-color: black;
   }
   
   .card-front .card-back{
