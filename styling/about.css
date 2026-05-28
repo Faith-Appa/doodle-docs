@@ -33,15 +33,33 @@ article{
     margin: 0;
     color:#38302E;
     text-align: left;
-    display: grid;
-    grid-column: sidebar;
-    padding: 1em;
-    background-color: #DBF4A7;
-    width: 4.8em;
-    height: 13.5em;
-    position: collapse;
-    float: left;
+    display: flex;
+    gap: .8em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
 }  
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.links>a {
+    font-size: medium;
+    font-weight: 800;
+    color: #38302E;
+    text-decoration:underline;
+    text-decoration-color: #41a9fd;
+    text-decoration-style: wavy;
+    position: relative;
+    transition: 0.3s ease;
+}
+  
 
 footer{
     text-align: center;
