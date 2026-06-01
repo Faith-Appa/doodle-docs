@@ -32,11 +32,16 @@ body {
     color:#38302E;
     text-align: left;
     display: flex;
+     font-size: medium;
+    font-weight: 800;
+    color: #38302E;
+    text-decoration:underline;
+    text-decoration-color: #41a9fd;
+    text-decoration-style: wavy;
     gap: .8em;
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }  
 
 .links {
@@ -45,6 +50,7 @@ body {
     flex-direction: center;
     justify-content: center;
     gap: 0.5em;
+    
 }
 
 .links>a {
@@ -55,6 +61,11 @@ body {
     text-decoration-color: #41a9fd;
     text-decoration-style: wavy;
     position: relative;
+}
+
+.links>a:hover, a:active {
+    color: black;
+    text-shadow: 0 0 0.1em #41a9fd;
     transition: 0.3s ease;
 }
 

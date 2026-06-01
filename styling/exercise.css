@@ -1,3 +1,10 @@
+@media screen (max-width: 480px) and (min-width: 320px) {
+    body {
+        width: 80%;
+    }
+    
+}
+
 header{
  font-family: Helvetica, sans-serif;
  background-color:  rgb(145, 195, 241);
@@ -7,35 +14,48 @@ header{
  border-color: black;  
 }
 
+
 .sidebar {
-  font-family:Helvetica, sans-serif;
-  margin: 0;
-  background-color:#F9F9ED;
-  color:#38302E;
-  text-align: left;
-  display: flex;
-  gap: .8em;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
+    font-family:Helvetica, sans-serif;
+    margin: 0;
+    color:#38302E;
+    text-align: left;
+    display: flex;
+     font-size: medium;
+    font-weight: 800;
+    color: #38302E;
+    text-decoration:underline;
+    text-decoration-color: #41a9fd;
+    text-decoration-style: wavy;
+    gap: .8em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}  
+
 .links {
-  list-style: none;
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-  gap: 0.5em;
+    list-style: none;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    gap: 0.5em;
+    
 }
 
 .links>a {
-  font-size: medium;
-  font-weight: 800;
-  color: #38302E;
-  text-decoration:underline;
-  text-decoration-color: #41a9fd;
-  text-decoration-style: wavy;
-  position: relative;
-  transition: 0.3s ease;
+    font-size: medium;
+    font-weight: 800;
+    color: #38302E;
+    text-decoration:underline;
+    text-decoration-color: #41a9fd;
+    text-decoration-style: wavy;
+    position: relative;
+}
+
+.links>a:hover, a:active {
+    color: black;
+    text-shadow: 0 0 0.1em #41a9fd;
+    transition: 0.3s ease;
 }
 
 main {
@@ -46,17 +66,16 @@ main {
 
 }
 
-.card-one, .card-two, .card-three {
+.card-one, .card-two, .card-three,.card-four,.card-five,.card-six {
     font-family: Helvetica, sans-serif;
     text-align: center;
     height: 15em;
     width: 20em;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     perspective: 1000px;
     cursor: pointer;
     float: left;
-    width: 25%;
-    padding: 0 1px;
+  width: 28%; 
+  padding: 5px
   }
   
   .card-inner {
@@ -81,12 +100,21 @@ main {
   height: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  border-style: solid;
+    border-radius: 1em;
   
 }
 
   .card-front{
     background-color: #fbfbfb;
     border: 1px solid black;
+  }
+
+  .card-front>img {
+    width: 55%;
+    height: 55%;
+    object-fit: contain;
+    border-radius: 1em;
   }
 
   .card-back{
@@ -98,5 +126,9 @@ main {
   footer{
     clear:all;
     font-family: Helvetica, sans-serif;
-    text-align: center;
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+      text-align: center;
   }
