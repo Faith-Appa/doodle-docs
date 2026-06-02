@@ -5,9 +5,13 @@
     
 }
 
+body{ 
+  background: linear-gradient(#F9F9ED, #41a8fd8a 90%);
+}
+
 header{
  font-family: Helvetica, sans-serif;
- background-color:  rgb(145, 195, 241);
+ background-color:  #FFFBDB;
  display:grid;
  text-align: center;
  border-style: dashed;
@@ -17,15 +21,16 @@ header{
 
 .sidebar {
     font-family:Helvetica, sans-serif;
+    background-color: #41a8fd8a;
     margin: 0;
     color:#38302E;
     text-align: left;
     display: flex;
      font-size: medium;
     font-weight: 800;
-    color: #38302E;
+    color: #000000;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     gap: .8em;
     justify-content: center;
@@ -45,16 +50,16 @@ header{
 .links>a {
     font-size: medium;
     font-weight: 800;
-    color: #38302E;
+    color: #2c2b2b;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     position: relative;
 }
 
 .links>a:hover, a:active {
     color: black;
-    text-shadow: 0 0 0.1em #41a9fd;
+    text-shadow: 0 0 0.1em #535252;
     transition: 0.3s ease;
 }
 
@@ -63,6 +68,7 @@ main {
     text-align: center;
     border-style:dotted;
     border-color:black;
+    background-color: #41a8fd8a;
 
 }
 
@@ -74,9 +80,9 @@ main {
     perspective: 1000px;
     cursor: pointer;
     float: left;
-  width: 28%; 
-  padding: 5px
-  }
+    width: 28%; 
+    padding: 5px;
+}
   
   .card-inner {
     background-color: transparent;

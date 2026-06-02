@@ -5,14 +5,16 @@
 }
 
 html{
-    background-image: background-image:-moz-linear-gradient(to bottom white, blue);
+    background:linear-gradient(#F9F9ED, #41a8fd8a 45%);
 }
 header {
     font-family: Helvetica, sans-serif;
     text-align: center;
+    background-color:#41a8fd81 ;
 }
 
 main{
+    background-color: #FFFBDB;
     border-style: solid;
     border-color:black;
 }
@@ -39,7 +41,7 @@ article{
     font-weight: 800;
     color: #38302E;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     gap: .8em;
     justify-content: center;
@@ -61,14 +63,14 @@ article{
     font-weight: 800;
     color: #38302E;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     position: relative;
 }
 
 .links>a:hover, a:active {
     color: black;
-    text-shadow: 0 0 0.1em #41a9fd;
+    text-shadow: 0 0 0.1em #535252;
     transition: 0.3s ease;
 }
   

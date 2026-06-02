@@ -22,7 +22,7 @@ body {
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: rgb(65, 169, 253);
+    text-decoration-color: #ff183bbe;
     
 }
 
@@ -36,7 +36,7 @@ body {
     font-weight: 800;
     color: #38302E;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     gap: .8em;
     justify-content: center;
@@ -58,14 +58,14 @@ body {
     font-weight: 800;
     color: #38302E;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     position: relative;
 }
 
 .links>a:hover, a:active {
     color: black;
-    text-shadow: 0 0 0.1em #41a9fd;
+    text-shadow: 0 0 0.1em #92071cbe;
     transition: 0.3s ease;
 }
 
@@ -81,13 +81,13 @@ main {
 
 #not{
     font-family:Helvetica, sans-serif;
-    background-color: #DBF4A7;
+    background-color: #41a8fd8a;
     margin: 0em;
     display:flex;
     flex-direction:row;
     justify-content: center;
     align-content:space-around;
-    border: 0.1em solid #38302E;
+    border: 0.1em solid #293241;
 }
 
 .olink {
@@ -106,7 +106,7 @@ main {
           ),
           linear-gradient(
             to right,
-            rgb(255, 115, 33),
+            rgb(184, 3, 3),
             rgb(136, 255, 0),
             rgb(38, 145, 252)
         );
@@ -123,7 +123,7 @@ main {
 
 .links>a:hover, a:active {
     color: black;
-    text-shadow: 0 0 0.1em #41a9fd;
+    text-shadow: 0 0 0.1em #535252;
 }
 
 footer {

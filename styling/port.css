@@ -5,8 +5,9 @@
     
 }
 body {
+    background: linear-gradient(#F9F9ED, #41a8fd8a 150%);
     margin: 0;
-    background-color: rgb(145, 195, 241);
+
 }
 
 .sidebar {
@@ -19,7 +20,7 @@ body {
     font-weight: 800;
     color: #38302E;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     gap: .8em;
     justify-content: center;
@@ -41,14 +42,14 @@ body {
     font-weight: 800;
     color: #38302E;
     text-decoration:underline;
-    text-decoration-color: #41a9fd;
+    text-decoration-color: #ff183bbe;
     text-decoration-style: wavy;
     position: relative;
 }
 
 .links>a:hover, a:active {
     color: black;
-    text-shadow: 0 0 0.1em #41a9fd;
+    text-shadow: 0 0 0.1em #535252;
     transition: 0.3s ease;
 }
 
@@ -58,12 +59,12 @@ body {
     text-align: center;
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #ffff;
+    text-decoration-color: #ff183bbe;
 
 }
 
 main{
-    background-color: rgb(250, 233, 211);
+    background-color: #41a8fd67;
     display: grid;
     border-style: solid;
     border-color:black;
@@ -71,8 +72,13 @@ main{
 
 main>h2 {
     font-family: Helvetica, sans-serif;
+    color: #000000;
+    text-decoration: wavy;
     text-align: center;
-    margin-right: 5.5em;
+    justify-content: center;
+    text-decoration:underline;
+    text-decoration-color: #ff183bbe;
+    text-decoration-style: wavy;
 }
 
 .gallery {
