@@ -72,6 +72,10 @@ main {
 
 }
 
+aside {
+  margin-left: 11em;
+}
+
 .card-one, .card-two, .card-three,.card-four,.card-five,.card-six {
     font-family: Helvetica, sans-serif;
     text-align: center;
