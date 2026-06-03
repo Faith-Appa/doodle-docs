@@ -136,6 +136,26 @@
         </div>
     </div>
 </aside>
+    <h1>Here's a Random drawing Idea Generator!</h1>
+    <p>Your drawing prompt will show up here!</p>
+    <button id="generateButton">Generate!</button>
+    <p id="TextArea"></p>
+        
+    <!--Java Script-->
+
+    <script>
+        const words = ["Bear", "Boat", "Cat", "Spaceship","Man","Woman","Fiat", "Knight", "Dragon", "Mermaid", "Cyborg", "Kratos...boy", "Horse", "Iron Man", "Batman", "Superman", "Wizard", "Semi-Truck", "A Train", "A Mountain" ];
+        const generateButton = document.getElementById("generateButton");
+        console.log(generateButton)
+
+        function generateRandomWord() {
+            const randomIndex = Math.floor(Math.random() * words.length);
+            const randomWord = words[randomIndex];
+            document.querySelector("#TextArea").textContent = `Random Word: ${randomWord}`;
+        }
+
+        generateButton.addEventListener("click",generateRandomWord);
+    </script>
     <footer>
          <p>&copy; 2026 Doodle Docs / Faith Apodaca All rights reserved.</p>
     </footer>
