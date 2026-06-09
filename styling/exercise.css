@@ -100,7 +100,7 @@ aside {
   }
 
   
-  .card-inner:hover {
+  .card-inner:active {
     transform: rotateY(180deg);
   }
   

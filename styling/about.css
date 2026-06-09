@@ -10,7 +10,10 @@ html{
 header {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    background-color:#41a8fd81 ;
+    background-color:#41a8fd81;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ff183bbe;
 }
 
 main{
