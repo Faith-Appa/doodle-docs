@@ -66,19 +66,18 @@ header{
 main {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    border-style:dotted;
-    border-color:black;
-    background-color: #41a8fd8a;
-
 }
 
 aside {
-  margin-left: 11em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-one, .card-two, .card-three,.card-four,.card-five,.card-six {
     font-family: Helvetica, sans-serif;
     text-align: center;
+   overflow: scroll;
     height: 15em;
     width: 20em;
     perspective: 1000px;
@@ -141,4 +140,15 @@ aside {
     bottom: 0;
     width: 100%;
       text-align: center;
+  }
+
+  .exercise-container {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
   }

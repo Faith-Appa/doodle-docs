@@ -6,6 +6,15 @@
     <title>Doodle Docs Exercises</title>
     <link rel="icon" type="image/x-icon" href="./images/pencil.ico.png">
     <link rel="stylesheet" href="./styling/exercise.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap">
+    <style>
+        h1,h2 {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -142,20 +151,21 @@
     <p id="TextArea"></p>
         
     <!--Java Script-->
+    <div class="exercise-container">
+        <script>
+            const words = ["Bear", "Boat", "Cat", "Spaceship","Man","Woman","Fiat", "Knight", "Dragon", "Mermaid", "Cyborg", "Kratos...boy", "Horse", "Iron Man", "Batman", "Superman", "Wizard", "Semi-Truck", "A Train", "A Mountain" ];
+            const generateButton = document.getElementById("generateButton");
+            console.log(generateButton)
 
-    <script>
-        const words = ["Bear", "Boat", "Cat", "Spaceship","Man","Woman","Fiat", "Knight", "Dragon", "Mermaid", "Cyborg", "Kratos...boy", "Horse", "Iron Man", "Batman", "Superman", "Wizard", "Semi-Truck", "A Train", "A Mountain" ];
-        const generateButton = document.getElementById("generateButton");
-        console.log(generateButton)
+            function generateRandomWord() {
+                const randomIndex = Math.floor(Math.random() * words.length);
+                const randomWord = words[randomIndex];
+                document.querySelector("#TextArea").textContent = `Random Word: ${randomWord}`;
+            }
 
-        function generateRandomWord() {
-            const randomIndex = Math.floor(Math.random() * words.length);
-            const randomWord = words[randomIndex];
-            document.querySelector("#TextArea").textContent = `Random Word: ${randomWord}`;
-        }
-
-        generateButton.addEventListener("click",generateRandomWord);
-    </script>
+            generateButton.addEventListener("click",generateRandomWord);
+        </script>
+    </div>
     <footer>
          <p>&copy; 2026 Doodle Docs / Faith Apodaca All rights reserved.</p>
     </footer>
