@@ -89,7 +89,9 @@ main>h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: space-evenly;  
+    align-content: space-evenly; 
+    object-fit: fill; 
+ 
 }
 
 .box {
@@ -102,6 +104,10 @@ main>h2 {
     align-items: center;
     font-size: 2em;
     color: #38302E;
+}
+
+.box>img {
+    object-fit: fill;
 }
 
 .gallery > div {
